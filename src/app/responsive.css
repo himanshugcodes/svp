@@ -1,0 +1,31 @@
+@media (max-width: 767px) {
+    .main-banner{
+        text-align: center;
+    }
+    .main-banner h1 {
+        font-size: 53px;
+        color: var(--white-color);
+        font-family: var(--secondary-font);
+        line-height: 55px;
+        font-weight: 700;
+        /* text-align: center; */
+    }
+    .btnbg{
+        margin: 0px;
+    }
+    .download-guide-section .image-section {
+        width: 54%;
+        display: none;
+    }
+    .content-section {
+        padding: 40px 25px;
+    }
+    .cta-main-heading h2 {
+        font-size: 38px;
+        font-family: var(--primary-font);
+        font-weight: 600;
+        color: #333333;
+       
+    }
+   
+}
