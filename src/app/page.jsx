@@ -1,5 +1,6 @@
 'use client'
 import React, { useEffect } from 'react';
+import { LiaAngleDoubleDownSolid } from "react-icons/lia";
 import ProcessSection from "@/component/ProcessSection";
 import Link from "next/link";
 import AOS from 'aos'; // Import AOS
