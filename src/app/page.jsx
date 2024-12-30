@@ -68,7 +68,7 @@ export default function Home() {
 
         
 
-        <section className="plans section-padding">
+        <section className="plans section-padding" id="main-down">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
