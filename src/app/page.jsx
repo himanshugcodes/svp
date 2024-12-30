@@ -31,7 +31,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-        
+        <section className="partner section-padding">
+          <div className="container">
           <div className="row justify-content-center">
               <div className="col-md-3">
                 <div className="text-center pt-3 scroll">
@@ -41,6 +42,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+          </section>
         
         <section className="partner section-padding">
           <div className="container">
