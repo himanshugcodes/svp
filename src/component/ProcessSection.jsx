@@ -15,7 +15,7 @@ const ProcessSection = () => {
       // pagination={{ clickable: true }}
       loop={true} // Enable looping
       autoplay={{
-        delay: 366000, // Time between transitions (in milliseconds)
+        delay: 3000, // Time between transitions (in milliseconds)
         disableOnInteraction: false, // Keep autoplay running after user interaction
       }}
       modules={[Mousewheel, Pagination, Autoplay]} // Include Autoplay module
