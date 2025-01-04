@@ -1,9 +1,9 @@
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Mousewheel, Pagination, Autoplay } from 'swiper/modules'; // Import Autoplay module
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Mousewheel, Pagination, Autoplay } from "swiper/modules"; // Import Autoplay module
 
-import 'swiper/css';
-import 'swiper/css/pagination';
+import "swiper/css";
+import "swiper/css/pagination";
 
 const ProcessSection = () => {
   return (
@@ -15,7 +15,7 @@ const ProcessSection = () => {
       // pagination={{ clickable: true }}
       loop={true} // Enable looping
       autoplay={{
-        delay: 3000, // Time between transitions (in milliseconds)
+        delay: 366000, // Time between transitions (in milliseconds)
         disableOnInteraction: false, // Keep autoplay running after user interaction
       }}
       modules={[Mousewheel, Pagination, Autoplay]} // Include Autoplay module
@@ -29,7 +29,9 @@ const ProcessSection = () => {
           <div>
             <h5 className="step-title">Start with a free site survey</h5>
             <p className="step-description">
-              Our engineer visits your site. We analyse your energy needs. Estimate your solar plant’s capacity. Discuss technology options with you.
+              Our engineer visits your site. We analyse your energy needs.
+              Estimate your solar plant’s capacity. Discuss technology options
+              with you.
             </p>
           </div>
         </div>
@@ -40,9 +42,13 @@ const ProcessSection = () => {
             <span className="normal">02</span>
           </div>
           <div>
-            <h5 className="step-title">Dive into your free <br /> proposal</h5>
+            <h5 className="step-title">
+              Dive into your free <br /> proposal
+            </h5>
             <p className="step-description">
-              Our engineer visits your site. We analyse your energy needs. Estimate your solar plant’s capacity. Discuss technology options with you.
+              Our engineer visits your site. We analyse your energy needs.
+              Estimate your solar plant’s capacity. Discuss technology options
+              with you.
             </p>
           </div>
         </div>
@@ -55,7 +61,9 @@ const ProcessSection = () => {
           <div>
             <h5 className="step-title">Dive into your free proposal</h5>
             <p className="step-description">
-              Our engineer visits your site. We analyse your energy needs. Estimate your solar plant’s capacity. Discuss technology options with you.
+              Our engineer visits your site. We analyse your energy needs.
+              Estimate your solar plant’s capacity. Discuss technology options
+              with you.
             </p>
           </div>
         </div>

@@ -628,6 +628,9 @@ tbody tr:hover {
   justify-content: center;
   background-color: #092138;
 }
+.swiper-slide-active .step-number .normal {
+  border: 2px solid var(--secondary-color);
+}
 .step-number:after {
   content: "";
   border: 1px dashed #fff;
