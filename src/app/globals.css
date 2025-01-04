@@ -75,7 +75,9 @@ ul {
 
 .header {
   background-color: #092138;
-  position: relative;
+  position: fixed;
+  width: 100%;
+  z-index: 999999;
 }
 
 .logo img {
@@ -338,6 +340,7 @@ ul {
   overflow: hidden;
   display: flex;
   align-items: center;
+  margin-top: 90px;
 }
 .main-banner h1 {
   font-size: 65px;

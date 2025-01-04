@@ -63,12 +63,7 @@ export default function Home() {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-9">
-                <div
-                  className="main-heading"
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                  data-aos-delay="100"
-                >
+                <div className="main-heading">
                   <h2 className="main-heading text-center">
                     Trusted by<span> Top Leaders</span>
                   </h2>
@@ -76,12 +71,7 @@ export default function Home() {
               </div>
             </div>
             <div className="row align-items-center justify-content-center">
-              <div
-                className="col-md-9"
-                data-aos="zoom-in"
-                data-aos-duration="1200"
-                data-aos-delay="500"
-              >
+              <div className="col-md-9">
                 <img
                   className="mt-5 img-fluid"
                   src="assets/img/partner.png"
@@ -250,12 +240,7 @@ export default function Home() {
         <section className="table-plan pb-5">
           <div className="container">
             <div className="row">
-              <div
-                className="col-md-12"
-                data-aos="zoom-in"
-                data-aos-duration="1200"
-                data-aos-delay="500"
-              >
+              <div className="col-md-12">
                 <p>
                   But you can’t make a decision without an estimate of cost. We
                   understand that. 
@@ -329,12 +314,7 @@ export default function Home() {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-9">
-                <div
-                  className="video-text"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                  data-aos-delay="500"
-                >
+                <div className="video-text">
                   <h4>
                     {" "}
                     <span>“SVPL Solar </span> made it so easy. They handled
@@ -345,12 +325,7 @@ export default function Home() {
                     <span> saving nearly ₹5 lakh a month!”</span>
                   </h4>
                 </div>
-                <div
-                  className="video"
-                  data-aos="zoom-in"
-                  data-aos-duration="1200"
-                  data-aos-delay="500"
-                >
+                <div className="video">
                   <iframe
                     width="100%"
                     height="500"
@@ -362,12 +337,7 @@ export default function Home() {
                     allowFullScreen
                   ></iframe>
                 </div>
-                <div
-                  className="text-center"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                  data-aos-delay="500"
-                >
+                <div className="text-center">
                   <Link className="btn btn-lg mt-4" href="">
                     Book a Consultation
                   </Link>
@@ -682,12 +652,7 @@ export default function Home() {
         <section className="award-logo">
           <div className="container">
             <div className="row justify-content-center">
-              <div
-                className="col-md-4 text-center"
-                data-aos="zoom-in"
-                data-aos-duration="1200"
-                data-aos-delay="500"
-              >
+              <div className="col-md-4 text-center">
                 <img src="assets/img/award-footer.png" alt="" />
               </div>
             </div>
