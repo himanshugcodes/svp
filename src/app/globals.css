@@ -72,7 +72,26 @@ ul {
 .section-padding {
   padding: 60px 0;
 }
-
+/*Google*/
+.translate {
+  position: fixed;
+  right: 66%;
+  z-index: 999999999;
+  top: 5%;
+}
+.goog-te-gadget img {
+  display: none;
+}
+#google_translate_element select {
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+/*nookies*/
+.skiptranslate {
+  display: none !important;
+}
 .header {
   background-color: #092138;
   position: fixed;
@@ -264,13 +283,15 @@ ul {
   margin: 0 0px;
   transition: all 0.3s ease-in-out;
   font-family: var(--secondary-font);
+  border: 1px solid var(--secondary-color) !important;
   z-index: 1;
 }
 .btn:hover {
-  color: #fbba00 !important;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  color: var(--secondary-color) !important;
+  /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); */
+  background-color: #fff !important;
 }
-.btn:before {
+/* .btn:before {
   content: "";
   background: #fff !important;
   transform: skewX(-45deg) scale(0, 1);
@@ -284,7 +305,7 @@ ul {
 }
 .btn:hover:before {
   transform: skewX(-45deg) scale(1, 1);
-}
+} */
 .header h4 {
   margin-bottom: 0px;
 }
@@ -314,7 +335,7 @@ ul {
   color: #fbba00 !important;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
-.btnbg:before {
+/* .btnbg:before {
   content: "";
   background: #fff !important;
   transform: skewX(-45deg) scale(0, 1);
@@ -328,7 +349,7 @@ ul {
 }
 .btnbg:hover:before {
   transform: skewX(-45deg) scale(1, 1);
-}
+} */
 
 .main-banner {
   background-image: url("/assets/img/hero.png");

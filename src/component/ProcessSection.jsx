@@ -15,7 +15,7 @@ const ProcessSection = () => {
       // pagination={{ clickable: true }}
       loop={true} // Enable looping
       autoplay={{
-        delay: 3000, // Time between transitions (in milliseconds)
+        delay: 5000, // Time between transitions (in milliseconds)
         disableOnInteraction: false, // Keep autoplay running after user interaction
       }}
       modules={[Mousewheel, Pagination, Autoplay]} // Include Autoplay module
@@ -46,9 +46,8 @@ const ProcessSection = () => {
               Dive into your free <br /> proposal
             </h5>
             <p className="step-description">
-              Our engineer visits your site. We analyse your energy needs.
-              Estimate your solar plant’s capacity. Discuss technology options
-              with you.
+              On our second visit, see a digital model of your future solar
+              plant. Get a detailed generation report and ROI analysis.
             </p>
           </div>
         </div>
@@ -59,11 +58,40 @@ const ProcessSection = () => {
             <span className="normal">03</span>
           </div>
           <div>
-            <h5 className="step-title">Dive into your free proposal</h5>
+            <h5 className="step-title">We handle it all</h5>
             <p className="step-description">
-              Our engineer visits your site. We analyse your energy needs.
-              Estimate your solar plant’s capacity. Discuss technology options
-              with you.
+              We manage paperwork. Liaise with local authorities. Create
+              detailed layouts for easy maintenance and permissions.
+            </p>
+          </div>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className="step">
+          <div className="step-number">
+            <span className="normal">04</span>
+          </div>
+          <div>
+            <h5 className="step-title">We manage every detail</h5>
+            <p className="step-description">
+              Our ERP system tracks your project. From grid connectivity to a
+              smooth installation. We ensure your plant is up and running on
+              time.
+            </p>
+          </div>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className="step">
+          <div className="step-number">
+            <span className="normal">05</span>
+          </div>
+          <div>
+            <h5 className="step-title">We keep watch</h5>
+            <p className="step-description">
+              Our team monitors your plant online. Receive monthly reports,
+              alerts, and recommendations. We ensure your system runs at peak
+              performance.
             </p>
           </div>
         </div>

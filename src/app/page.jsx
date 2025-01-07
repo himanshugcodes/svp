@@ -81,7 +81,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
         <section className="plans section-padding" id="main-down">
           <div className="container">
             <div className="row">
@@ -236,7 +235,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
         <section className="table-plan pb-5">
           <div className="container">
             <div className="row">
@@ -309,7 +307,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
         <section className="video section-padding">
           <div className="container">
             <div className="row justify-content-center">
@@ -346,7 +343,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
         <section className="why-choose section-padding">
           <div className="container">
             <div className="row">
@@ -501,7 +497,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
         <section className="process-section section-padding">
           <div className="container d-flex align-items-center">
             {/* Left Content */}
@@ -564,7 +559,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
         <section className="download download-guide-section">
           <div className="d-flex align-items-center">
             {/* Left Image Section */}
@@ -599,7 +593,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
         <section className="cta">
           <div className="container">
             <div className="row">
@@ -648,7 +641,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
         <section className="award-logo">
           <div className="container">
             <div className="row justify-content-center">
