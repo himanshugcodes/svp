@@ -42,9 +42,7 @@ const ProcessSection = () => {
             <span className="normal">02</span>
           </div>
           <div>
-            <h5 className="step-title">
-              Dive into your free <br /> proposal
-            </h5>
+            <h5 className="step-title">Dive into your free proposal</h5>
             <p className="step-description">
               On our second visit, see a digital model of your future solar
               plant. Get a detailed generation report and ROI analysis.

@@ -285,11 +285,12 @@ ul {
   font-family: var(--secondary-font);
   border: 1px solid var(--secondary-color) !important;
   z-index: 1;
+  box-shadow: 0 4px 4px 0 #0000001a;
 }
 .btn:hover {
   color: var(--secondary-color) !important;
-  /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); */
   background-color: #fff !important;
+  /* box-shadow: 0 4px 4px 0 #0000001a; */
 }
 /* .btn:before {
   content: "";
@@ -386,10 +387,11 @@ ul {
 
 /*Main Heading*/
 .main-heading h2 {
-  font-size: 44px;
+  font-size: 39px;
   font-family: var(--primary-font);
   font-weight: 700;
   color: var(--black-color);
+  letter-spacing: -2px;
 }
 .main-heading h2 span {
   color: var(--secondary-color);
@@ -420,10 +422,12 @@ ul {
   background: transparent;
 }
 .plans-box h4 {
-  font-size: 20px;
+  font-size: 18px;
   font-family: var(--primary-font);
   color: #464646;
   padding-top: 18px;
+  font-weight: 600;
+  line-height: 28px;
 }
 .plans-box:hover h4 {
   color: var(--secondary-color);
@@ -437,15 +441,18 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 45px;
 }
 .plans-box-white:hover {
   background: #fff;
 }
 .plans-box-white h4 {
-  font-size: 20px;
+  font-size: 18px;
   font-family: var(--primary-font);
   color: #464646;
   padding-top: 18px;
+  font-weight: 600;
+  line-height: 28px;
 }
 .plans-box-white:hover h4 {
   color: var(--secondary-color);
@@ -466,8 +473,8 @@ thead tr th {
   background-color: #092138 !important; /* Dark blue header */
   color: white !important;
   padding: 30px 0 15px 0 !important;
-  font-size: 21px;
-  font-weight: 600;
+  font-size: 23px;
+  font-weight: 700;
 }
 
 thead th {
@@ -492,10 +499,10 @@ tbody td {
   background-color: transparent !important;
   /* border: 1px solid #ddd;  */
   border: none !important;
-  font-size: 20px !important;
+  font-size: 18px !important;
   color: #464646 !important;
   font-family: var(--primary-font);
-  font-weight: 600;
+  font-weight: 500;
 }
 /* tbody tr:hover td {
 color: var(--black-color)!important;
@@ -527,7 +534,7 @@ tbody tr:hover {
   background-color: #f2f3f7;
 }
 .table-plan p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   margin-bottom: 0px;
 }
@@ -535,11 +542,12 @@ tbody tr:hover {
 /*vidoe*/
 .video .video-text h4 {
   color: #333333;
-  font-size: 28px;
+  font-size: 45px;
   font-family: var(--primary-font);
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
   margin-bottom: 35px;
+  line-height: 48px;
 }
 .video .video-text h4 span {
   font-weight: 600;
@@ -553,7 +561,7 @@ tbody tr:hover {
 .icon-text {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   flex-direction: column;
   padding: 15px 15px;
   border-radius: 8px;
@@ -562,10 +570,11 @@ tbody tr:hover {
   background-color: #fff;
 }
 .icon-text h5 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
   margin: 10px 0;
   color: #464646;
+  line-height: 30px;
 }
 .icon-text:hover h5 {
   color: var(--secondary-color);
@@ -573,10 +582,11 @@ tbody tr:hover {
 
 /* Paragraphs for descriptions */
 .icon-text p {
-  font-size: 14px;
+  font-size: 18px;
   color: #000;
-  line-height: 18px;
   margin-bottom: 0px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 /* Image styling */
@@ -623,7 +633,7 @@ tbody tr:hover {
   color: var(--secondary-color);
 }
 .swiper-slide-active .step-title {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
 }
 
@@ -660,8 +670,8 @@ tbody tr:hover {
   position: absolute;
 }
 .step-title {
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 700;
   margin-bottom: 0.5rem;
   color: #fff;
 }
@@ -695,11 +705,11 @@ tbody tr:hover {
 }
 
 .download-guide-section .guide-title {
-  font-size: 28px;
-  font-weight: 300;
-  color: #000;
+  font-size: 18px;
+  font-weight: 700;
   margin-bottom: 10px;
-  /* font-family: var(--primary-font); */
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
 }
 
 .download-guide-section .guide-heading {
@@ -727,7 +737,7 @@ tbody tr:hover {
 }
 
 .download-guide-section .guide-features li {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 400;
   color: #333333;
   letter-spacing: 0px;
@@ -738,7 +748,7 @@ tbody tr:hover {
   padding: 50px 0;
 }
 .cta-main-heading h2 {
-  font-size: 55px;
+  font-size: 47px;
   font-family: var(--primary-font);
   font-weight: 600;
   color: #333333;
@@ -746,6 +756,7 @@ tbody tr:hover {
 }
 .cta-main-heading h2 span {
   color: var(--secondary-color);
+  font-weight: 700;
 }
 
 /*award-logo*/
@@ -762,7 +773,7 @@ tbody tr:hover {
 }
 .footer-section p {
   color: var(--white);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 300;
 }
 
@@ -791,7 +802,7 @@ tbody tr:hover {
 .single-footer .quick-links li {
   margin-bottom: 10px;
   color: var(--white-color);
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .single-footer .quick-links li a {
@@ -846,7 +857,7 @@ tbody tr:hover {
   color: var(--white-color);
   font-weight: 300;
   position: relative;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .single-footer .footer-contact li:hover a {
@@ -981,10 +992,16 @@ tbody tr:hover {
 .arrow {
   display: inline-block;
   animation: bounce 1.5s infinite;
+  font-size: 18px;
 }
 .scroll a {
   color: #000;
   font-weight: 400;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: var(--primary-font);
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 
 @keyframes bounce {

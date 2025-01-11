@@ -44,7 +44,7 @@ export default function Home() {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-3">
-                <div className="text-center pt-3 scroll">
+                <div className="text-center pt-4 scroll">
                   <a href="/#main-down">
                     <p>
                       Scroll down{" "}
@@ -59,29 +59,64 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="partner section-padding">
+        <section className="partner section-padding pt-4">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-9">
                 <div className="main-heading">
                   <h2 className="main-heading text-center">
-                    Trusted by<span> Top Leaders</span>
+                    Trusted by Top Leaders<span></span>
                   </h2>
                 </div>
               </div>
             </div>
             <div className="row align-items-center justify-content-center">
-              <div className="col-md-9">
+              <div className="col-md-2 text-center pb-5">
                 <img
                   className="mt-5 img-fluid"
-                  src="assets/img/partner.png"
+                  src="assets/img/partner1.png"
+                  alt=""
+                />
+              </div>
+              <div className="col-md-2 text-center pb-5">
+                <img
+                  className="mt-5 img-fluid"
+                  src="assets/img/partner1.png"
+                  alt=""
+                />
+              </div>
+              <div className="col-md-2 text-center pb-5">
+                <img
+                  className="mt-5 img-fluid"
+                  src="assets/img/partner1.png"
+                  alt=""
+                />
+              </div>
+              <div className="col-md-2 text-center pb-5">
+                <img
+                  className="mt-5 img-fluid"
+                  src="assets/img/partner1.png"
+                  alt=""
+                />
+              </div>
+              <div className="col-md-2 text-center pb-5">
+                <img
+                  className="mt-5 img-fluid"
+                  src="assets/img/partner1.png"
+                  alt=""
+                />
+              </div>
+              <div className="col-md-2 text-center pb-5">
+                <img
+                  className="mt-5 img-fluid"
+                  src="assets/img/partner1.png"
                   alt=""
                 />
               </div>
             </div>
           </div>
         </section>
-        <section className="plans section-padding" id="main-down">
+        <section className="plans section-padding pb-3" id="main-down">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
@@ -104,7 +139,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="row g-0">
+            <div className="row ">
               <div className="col-md-3">
                 <div
                   className="plans-box-white"
@@ -132,7 +167,9 @@ export default function Home() {
                     src="assets/img/plans-img2.png"
                     alt="plans"
                   />
-                  <h4>Type of solar panel</h4>
+                  <h4>
+                    Type of solar <br /> panel
+                  </h4>
                 </div>
               </div>
               <div className="col-md-3">
@@ -148,7 +185,8 @@ export default function Home() {
                     alt="plans"
                   />
                   <h4>
-                    Type of plant <br /> (off-grid, on-grid, hybrid)
+                    Type of plant (off-grid, <br />
+                    on-grid, hybrid)
                   </h4>
                 </div>
               </div>
@@ -243,7 +281,7 @@ export default function Home() {
                   But you can’t make a decision without an estimate of cost. We
                   understand that. 
                 </p>
-                <p className="mb-2">
+                <p className="mb-5">
                   Here’s a breakdown of how much you can expect to save when you
                   switch to solar.
                 </p>
@@ -310,16 +348,15 @@ export default function Home() {
         <section className="video section-padding">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-md-9">
+              <div className="col-md-10">
                 <div className="video-text">
                   <h4>
                     {" "}
                     <span>“SVPL Solar </span> made it so easy. They handled
                     everything, and before I knew it, our panels were up and
-                    running. Honestly, I was worried this would just add another
-                    big task to my plate, but it didn’t. I barely had to lift a
-                    finger. And now, we’re{" "}
-                    <span> saving nearly ₹5 lakh a month!”</span>
+                    running. Honestly, I was worried this would just add
+                    another.
+                    <span></span>
                   </h4>
                 </div>
                 <div className="video">
@@ -360,10 +397,10 @@ export default function Home() {
               </div>
             </div>
             <div className="row justify-content-center align-items-center">
-              <div className="col-md-10">
-                <div className="row align-items-center">
+              <div className="col-md-12">
+                <div className="row justify-content-evenly align-items-center">
                   {/* Left Column */}
-                  <div className="col-lg-4">
+                  <div className="col-lg-4 pe-5">
                     <div
                       className="icon-text"
                       data-aos="fade-right"
@@ -375,7 +412,9 @@ export default function Home() {
                         src="assets/img/why-choose1.png"
                         alt="why choose us"
                       />
-                      <h5>25-year performance guarantee</h5>
+                      <h5>
+                        25-year performance <br /> guarantee
+                      </h5>
                       <p>
                         We promise our solar power plants will operate
                         efficiently for the next 25 years, maintaining at least
@@ -393,7 +432,9 @@ export default function Home() {
                         src="assets/img/why-choose2.png"
                         alt="why choose us"
                       />
-                      <h5>Unmatched safety standards</h5>
+                      <h5>
+                        Unmatched safety <br /> standards
+                      </h5>
                       <p>
                         Safety is paramount to us. In our 8 years of operation,
                         none of our plants have experienced accidents. Also
@@ -411,7 +452,9 @@ export default function Home() {
                         src="assets/img/why-choose3.png"
                         alt="why choose us"
                       />
-                      <h5>Long-term cost savings</h5>
+                      <h5>
+                        Long-term cost <br /> savings
+                      </h5>
                       <p>
                         Save money with durable components. Our solar plants use
                         only the highest-quality components, designed to last.
@@ -434,7 +477,7 @@ export default function Home() {
                   </div>
 
                   {/* Right Column */}
-                  <div className="col-lg-4">
+                  <div className="col-lg-4 ps-5">
                     <div
                       className="icon-text"
                       data-aos="fade-left"
@@ -446,7 +489,9 @@ export default function Home() {
                         src="assets/img/why-choose4.png"
                         alt="why choose us"
                       />
-                      <h5>Worry-free 5 year warranty</h5>
+                      <h5>
+                        Worry-free 5 year <br /> warranty
+                      </h5>
                       <p>
                         Enjoy a complete 5-year warranty on your entire solar
                         plant, including free replacements. Plus, ongoing
@@ -465,7 +510,10 @@ export default function Home() {
                         src="assets/img/why-choose5.png"
                         alt="why choose us"
                       />
-                      <h5>Step-by-step expert guidance</h5>
+                      <h5>
+                        Step-by-step expert
+                        <br /> guidance
+                      </h5>
                       <p>
                         Solar can be complex, but we simplify it. Our
                         experienced team provides expert guidance every step of
@@ -484,7 +532,10 @@ export default function Home() {
                         src="assets/img/why-choose6.png"
                         alt="why choose us"
                       />
-                      <h5>27x7 reliable support</h5>
+                      <h5>
+                        27x7 reliable
+                        <br /> support
+                      </h5>
                       <p>
                         Count on us for 24/7 reliable support. We respond within
                         24 hours and start solving your problem right away. No
@@ -502,11 +553,20 @@ export default function Home() {
             {/* Left Content */}
             <div className="row justify-content-between">
               <div
-                className="col-md-4"
+                className="col-md-5 pt-5 mt-md-5"
                 data-aos="fade-right"
                 data-aos-duration="1200"
                 data-aos-delay="400"
               >
+                <div className="row">
+                  <div className="col-md-12">
+                    <div className="main-heading pb-4">
+                      <h2 className="text-white" style={{ fontSize: "48px" }}>
+                        SVPL Solar<span> Process</span>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
                 {/* <div className="step mb-4">
                 <div className="step-number">
                   <span className="active">01</span>
@@ -571,7 +631,7 @@ export default function Home() {
             </div>
 
             {/* Right Content Section */}
-            <div className="content-section ms-0">
+            <div className="content-section ms-0 pe-5">
               <p className="guide-title">Downloadable guide</p>
               <h2 className="guide-heading">
                 The Industrial Owner’s Guide To Going Solar
@@ -598,7 +658,7 @@ export default function Home() {
             <div className="row">
               <div className="col-md-12">
                 <div className="row justify-content-center">
-                  <div className="col-md-9">
+                  <div className="col-md-10">
                     <div className="row justify-content-center">
                       <div className="col-md-7">
                         <div
