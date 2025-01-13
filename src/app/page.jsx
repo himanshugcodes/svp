@@ -549,62 +549,20 @@ export default function Home() {
           </div>
         </section>
         <section className="process-section section-padding">
-          <div className="container d-flex align-items-center">
+          <div className="container ">
             {/* Left Content */}
             <div className="row justify-content-between">
               <div
-                className="col-md-5 pt-5 mt-md-5"
+                className="col-md-12"
                 data-aos="fade-right"
                 data-aos-duration="1200"
                 data-aos-delay="400"
               >
-                <div className="row">
-                  <div className="col-md-12">
-                    <div className="main-heading pb-4">
-                      <h2 className="text-white" style={{ fontSize: "48px" }}>
-                        SVPL Solar<span> Process</span>
-                      </h2>
-                    </div>
-                  </div>
-                </div>
-                {/* <div className="step mb-4">
-                <div className="step-number">
-                  <span className="active">01</span>
-                </div>
-                <div>
-                  <h5 className="step-title text-warning">Start with a free site survey</h5>
-                  <p className="step-description">
-                    Our engineer visits your site. We analyse your energy needs. Estimate your solar plant’s capacity. Discuss technology options with you.
-                  </p>
-                </div>
-              </div>
-              <div className="step">
-                <div className="step-number">
-                  <span className="normal">02</span>
-                </div>
-                <div>
-                  <h5 className="step-title">Dive into your free proposal</h5>
-                  <p className="step-description">
-                    Our engineer visits your site. We analyse your energy needs. Estimate your solar plant’s capacity. Discuss technology options with you.
-                  </p>
-                </div>
-              </div> */}
                 <ProcessSection />
-                {/* <div className="step">
-                <div className="step-number">
-                  <span className="normal">03</span>
-                </div>
-                <div>
-                  <h5 className="step-title">Dive into your free proposal</h5>
-                  <p className="step-description">
-                    Our engineer visits your site. We analyse your energy needs. Estimate your solar plant’s capacity. Discuss technology options with you.
-                  </p>
-                </div>
-              </div> */}
               </div>
 
               {/* Right Image */}
-              <div
+              {/* <div
                 className="col-md-6"
                 data-aos="fade-left"
                 data-aos-duration="1200"
@@ -615,7 +573,7 @@ export default function Home() {
                   alt="Engineer installing solar panel"
                   className="img-fluid"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
@@ -693,7 +651,7 @@ export default function Home() {
                       data-aos-duration="1200"
                       data-aos-delay="700"
                     >
-                      <button className="btn">Book a Consultation </button>
+                      <button className="btn">Book a Free Consultation </button>
                     </div>
                   </div>
                 </div>
@@ -701,10 +659,10 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="award-logo">
+        <section className="award-logo section-padding">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-md-4 text-center">
+              <div className="col-md-3 text-center">
                 <img src="assets/img/award-footer.png" alt="" />
               </div>
             </div>
