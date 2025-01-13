@@ -94,6 +94,21 @@ const ProcessSection = () => {
           </div>
         </div>
       </SwiperSlide>
+      <SwiperSlide>
+        <div className="step">
+          <div className="step-number">
+            <span className="normal">06</span>
+          </div>
+          <div>
+            <h5 className="step-title">We maintain your plant</h5>
+            <p className="step-description">
+              We provide free annual maintenance for 5 years, including
+              quarterly check-ups, deep cleaning, and all repairs to keep your
+              solar plant running at peak efficiency.
+            </p>
+          </div>
+        </div>
+      </SwiperSlide>
     </Swiper>
   );
 };
