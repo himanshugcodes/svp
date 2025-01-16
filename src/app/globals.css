@@ -724,7 +724,7 @@ tbody tr:hover {
 }
 
 .download-guide-section .guide-description {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   color: #333333;
   line-height: 27px;
@@ -739,7 +739,7 @@ tbody tr:hover {
 }
 
 .download-guide-section .guide-features li {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 400;
   color: #333333;
   letter-spacing: 0px;

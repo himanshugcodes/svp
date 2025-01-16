@@ -1,12 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Mousewheel, Pagination, Autoplay } from "swiper/modules";
-
 import "swiper/css";
 import "swiper/css/pagination";
 
 const ProcessSection = () => {
-  // Array of slide data
+  const [activeIndex, setActiveIndex] = useState(0); // Track active slide index
+  const [isSliderVisible, setIsSliderVisible] = useState(false); // Track visibility of the slider
+  const swiperRef = useRef(null); // Reference to the swiper instance
+  const sliderRef = useRef(null); // Reference to the slider container
+
+  // Slides data
   const slides = [
     {
       step: "01",
@@ -52,8 +56,33 @@ const ProcessSection = () => {
     },
   ];
 
-  // State to track the active index
-  const [activeIndex, setActiveIndex] = useState(0);
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsSliderVisible(entry.isIntersecting);
+      },
+      { threshold: 0.1 } // Trigger when 10% of the slider is visible
+    );
+
+    if (sliderRef.current) {
+      observer.observe(sliderRef.current);
+    }
+
+    return () => {
+      if (sliderRef.current) {
+        observer.unobserve(sliderRef.current);
+      }
+    };
+  }, []);
+
+  useEffect(() => {
+    // Start or stop autoplay based on slider visibility
+    if (swiperRef.current && isSliderVisible) {
+      swiperRef.current.swiper.autoplay.start(); // Start autoplay when visible
+    } else if (swiperRef.current) {
+      swiperRef.current.swiper.autoplay.stop(); // Stop autoplay when not visible
+    }
+  }, [isSliderVisible]);
 
   return (
     <div className="row justify-content-between">
@@ -73,34 +102,37 @@ const ProcessSection = () => {
             </div>
           </div>
         </div>
-        <Swiper
-          direction="vertical"
-          slidesPerView={2}
-          spaceBetween={30}
-          mousewheel
-          loop={true}
-          autoplay={{
-            delay: 5000, // Time between transitions (in milliseconds)
-            disableOnInteraction: false,
-          }}
-          onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)} // Use realIndex
-          modules={[Mousewheel, Pagination, Autoplay]}
-          className="mySwiper"
-        >
-          {slides.map((slide, index) => (
-            <SwiperSlide key={index}>
-              <div className="step">
-                <div className="step-number">
-                  <span className="normal">{slide.step}</span>
+        <div ref={sliderRef}>
+          <Swiper
+            direction="vertical"
+            slidesPerView={2}
+            spaceBetween={30}
+            mousewheel
+            loop={true}
+            autoplay={{
+              delay: 5000, // Time between transitions (in milliseconds)
+              disableOnInteraction: false,
+            }}
+            onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)} // Use realIndex
+            modules={[Mousewheel, Pagination, Autoplay]}
+            className="mySwiper"
+            ref={swiperRef} // Attach swiper instance to ref
+          >
+            {slides.map((slide, index) => (
+              <SwiperSlide key={index}>
+                <div className="step">
+                  <div className="step-number">
+                    <span className="normal">{slide.step}</span>
+                  </div>
+                  <div>
+                    <h5 className="step-title">{slide.title}</h5>
+                    <p className="step-description">{slide.description}</p>
+                  </div>
                 </div>
-                <div>
-                  <h5 className="step-title">{slide.title}</h5>
-                  <p className="step-description">{slide.description}</p>
-                </div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </div>
 
       {/* Right Section: Image */}
